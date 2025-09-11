@@ -1,0 +1,23 @@
+
+// Function to display earthquake information
+function displayEarthquakeInfo() {
+  const earthquakeFacts = [
+    "Earthquakes can occur anywhere, but are more common near tectonic plate boundaries.",
+    "The largest earthquake ever recorded was the Great Chilean Earthquake of 1960.",
+    "Earthquakes can trigger landslides, tsunamis, and other secondary disasters."
+  ];
+
+  const earthquakeInfoElement = document.getElementById("earthquake-info");
+  earthquakeInfoElement.innerHTML = "";
+
+  earthquakeFacts.forEach((fact) => {
+    const factElement = document.createElement("p");
+    factElement.textContent = fact;
+    earthquakeInfoElement.appendChild(factElement);
+  });
+}
+
+// Function to simulate an earthquake alert
+function earthquakeAlert() {
+  alert("Earthquake alert! Drop, Cover, and Hold On!");
+}
