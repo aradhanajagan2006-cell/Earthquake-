@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Earthquake Information</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+		}
+	</style>
+</head>
+<body>
+	<h1>Earthquakes: Understanding the Basics</h1>
+	<p>An earthquake is a sudden release of energy in the Earth's lithosphere, creating seismic waves.</p>
+	
+	<h2>Causes of Earthquakes</h2>
+	<ul>
+		<li>Tectonic plate movement</li>
+		<li>Volcanic activity</li>
+		<li>Human activities (e.g., injection of fluids into the ground)</li>
+	</ul>
+	
+	<h2>Effects of Earthquakes</h2>
+	<ul>
+		<li>Ground shaking</li>
+		<li>Soil liquefaction</li>
+		<li>Tsunamis</li>
+		<li>Structural damage to buildings</li>
+	</ul>
+	
+	<h2>Preparedness and Safety</h2>
+	<ul>
+		<li>Create an emergency plan</li>
+		<li>Secure heavy objects</li>
+		<li>Practice earthquake drills</li>
+	</ul>
+</body>
+</html>
+
